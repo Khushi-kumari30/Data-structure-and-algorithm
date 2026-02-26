@@ -22,5 +22,4 @@ int main(){
         }
         //cout<<mid;
     }
-   // cout <<mid;
 }
