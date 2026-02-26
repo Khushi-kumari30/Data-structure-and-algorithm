@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 int main(){
-    vector<int>a = {1,2,2,2,3,4};
+    vector<int>a = {1,2,5,7,10};
     int target = 2;
     int left = 0;
     int n = a.size();
