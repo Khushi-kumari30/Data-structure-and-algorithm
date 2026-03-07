@@ -13,9 +13,9 @@ if(r == n-1 && c == n-1){
 visited[r][c] = true;
     //down call
     helper(mat,r + 1,c,path + "D",ans,visited);
-    //up
+    //up call
     helper(mat,r - 1,c,path + "U",ans,visited);
-      // left
+      // left call
     helper(mat,r,c - 1,path + "L",ans,visited);
         //right
     helper(mat,r,c +1,path + "R",ans,visited);
