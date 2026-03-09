@@ -15,7 +15,7 @@ void longsubseqbrute(vector<int>&a){
             }
         }
     }
-    cout<<len;
+    cout<<"Maximum length: "<<len;
 
 }
 void longestsubopti(vector<int>&a){
