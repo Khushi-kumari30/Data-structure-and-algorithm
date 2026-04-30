@@ -11,11 +11,11 @@ int main(){
       }else{
         upper[s[i] - 'A']++;
       }
-    }
+  }
     int count = 0;
     bool odd = 0;
     // if odd times then do -1
-    for(int i=0;i<26;i++){
+for(int i=0;i<26;i++){
     if(lower[i] % 2 == 0){
         count += lower[i];
     }else{
@@ -29,7 +29,7 @@ int main(){
         count += upper[i] - 1;
         odd = 1;
     }
-
 }
 cout<<count + odd;
+return 0;
 }
