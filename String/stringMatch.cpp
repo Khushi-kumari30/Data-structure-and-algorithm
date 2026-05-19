@@ -22,5 +22,5 @@ int main(){
     string s1 = "abcabdefg";
     string s2 = "cab";
     cout<<Stringmatch(s1,s2);
-
+    return 0;
 }
