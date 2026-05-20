@@ -3,15 +3,15 @@ using namespace std;
 int Stringmatch(string s1,string s2){
     int n = s1.size(),m = s2.size();
     for(int i=0;i<=n-m;i++){
-        int first = i,sec = 0;
-        while(sec < m){
-            if(s1[first] != s2[sec]){
+        int first = i,second = 0;
+        while(second < m){
+            if(s1[first] != s2[second]){
                 break;
             }else{
-                 first++,sec++;
+                 first++,second++;
             }
-            if(sec == m){
-                return first - sec;
+            if(second == m){
+                return first - second;
             }
         }
     }
