@@ -19,6 +19,7 @@ int lps(string s){
     }
 return lps[s.size()-1];
 }
+
 int main(){
 string s = "abcabdabcabdabdab";
 cout<<lps(s);
