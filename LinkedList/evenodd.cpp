@@ -78,7 +78,6 @@ void print(Node* head){
         cout << temp->data << " ";
         temp = temp->next;
     }
-
     cout << endl;
 }
 
@@ -87,8 +86,7 @@ void print(Node* head){
 int main(){
 
     vector<int> arr = {1,3,4,2,5,6};
-
-    Node* head = convertArr2LL(arr);
+     Node* head = convertArr2LL(arr);
     print(head);
     head = oddevenOpti(head);
     print(head);
