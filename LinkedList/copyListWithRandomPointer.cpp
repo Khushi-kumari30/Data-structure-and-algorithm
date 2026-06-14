@@ -65,14 +65,14 @@ int main() {
     Node* n2 = new Node(2);
     Node* n3 = new Node(3);
 
-    // Connect next pointers
+    // Connect next pointer
     n1->next = n2;
     n2->next = n3;
 
     // Connect random pointers
-    n1->random = n3;  // 1 -> 3
-    n2->random = n1;  // 2 -> 1
-    n3->random = n2;  // 3 -> 2
+    n1->random = n3;  
+    n2->random = n1;  
+    n3->random = n2;  
 
     cout << "Original List:\n";
     printList(n1);
