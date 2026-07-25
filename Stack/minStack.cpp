@@ -53,5 +53,6 @@ int main(){
     cout<<"min: "<<st.getMin()<<endl;
     st.pop();
     cout<<"min: "<<st.getMin();
+    return 0;
 
 }
