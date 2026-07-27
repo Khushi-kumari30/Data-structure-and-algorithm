@@ -20,5 +20,5 @@ int main(){
     for(int val : ans){
         cout<<val<<" ";
     }
-
+return 0;
 }
