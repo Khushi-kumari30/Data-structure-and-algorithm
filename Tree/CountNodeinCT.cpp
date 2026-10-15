@@ -49,4 +49,6 @@ root -> left -> left = new Treenode(4);
 root -> left ->right = new Treenode(5);
 root -> right -> left =  new Treenode(6);
 cout<<countNode(root);
+
+return 0;
 }
