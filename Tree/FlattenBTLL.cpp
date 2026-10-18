@@ -42,4 +42,6 @@ while(curr != NULL){
         curr= curr->right;
     }
     cout << endl;
+
+    return 0;
 }
